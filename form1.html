@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+
+        Enter your Name:-
+        <input type="text" placeholder="Enter your name" minlength="5" maxlength="10">
+        <br><br>
+        Entet Your Marks:-
+        <input type="number" placeholder="Enter Your Marks" step="4" min="5" max="10">
+        <!-- step me jo number likhte havhi se number increase hota h  -->
+        <br><br>
+        Enter Your Password:-
+        <!-- <input type="password" placeholder="Enter Your Password" pattern="@[a-zA-Z0-9]+@+{5,15}"> -->
+        <input type="password" placeholder="Enter Your Password" pattern="[a-zA-Z0-9]+@+[a-zA-Z0-Z]+\.[a-zA-Z]{3,}">
+        <!-- {5,15} min or max length ke liye use kiya h and  pattern="[a-zA-Z0-9]+@+[a-zA-Z0-Z]+\.[a-zA-Z]{3,}" it is a regular expression -->
+        <br><br>
+
+        <button>Submit</button>
+
+    </form>
+</body>
+
+</html>
